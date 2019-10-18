@@ -1,0 +1,24 @@
+/*
+ * @author Ivy Vasquez Sandoval (egi444)
+ */
+ 
+.button {
+	-fx-cursor: hand;
+	-fx-background-color: #28c401;
+	-fx-background-radius: 10;
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 24px;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+	-fx-border-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+.button:hover {
+	-fx-background-color: #00ff40;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 60, 0, 0, 0);
+}

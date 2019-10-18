@@ -1,0 +1,109 @@
+/*
+ * @author Ivy Vasquez Sandoval (egi444)
+ */
+
+#background {
+	-fx-background-image: url("data/images/725e5dc00ba49c240cd489e7b87e0496.jpg");
+}
+
+#chara1{
+	-fx-background-image: url("data/images/icon1.png");
+	-fx-background-size: contain;
+}
+
+#chara2{
+	-fx-background-image: url("data/images/icon2.png");
+	-fx-background-size: contain;
+}
+
+#chara3{
+	-fx-background-image: url("data/images/icon3.png");
+	-fx-background-size: contain;
+}
+
+#chara4{
+	-fx-background-image: url("data/images/icon4.png");
+	-fx-background-size: contain;
+}
+
+#chara5{
+	-fx-background-image: url("data/images/icon5.png");
+	-fx-background-size: contain;
+}
+
+
+#play {
+	-fx-cursor: hand;
+	-fx-background-color: #28c401;
+	-fx-background-radius: 10;
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 22px;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+	-fx-border-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+#play:hover{
+	-fx-background-color: #00ff40;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 60, 0, 0, 0);
+}
+
+#prompt{
+	-fx-font-family: "Algerian", decorative, serif;
+	-fx-font-size: 36px;
+	-fx-text-fill: white;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+.toggle-button {
+	-fx-cursor:hand;
+	-fx-background-color: #28c401;
+	-fx-opacity: 0.5;
+	-fx-background-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+	-fx-border-radius: 10;
+}
+
+.toggle-button:hover{
+	-fx-opacity: 1;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 60, 0, 0, 0);
+}
+
+.toggle-button:selected {
+	-fx-opacity: 1;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 60, 0, 0, 0);
+}
+
+.button {
+	-fx-cursor: hand;
+	-fx-background-color: #28c401;
+	-fx-background-radius: 10;
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+	-fx-border-color: white;
+	-fx-border-width: 2;
+	-fx-border-style: solid;
+	-fx-border-radius: 10;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 30, 0, 0, 0);
+}
+
+.button:hover{
+	-fx-background-color: #00ff40;
+	-fx-font-weight: bold;
+	-fx-text-fill: black;
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 60, 0, 0, 0);
+}
+
+.label{
+	-fx-font-family: "Comic Sans MS", cursive, sans-serif;
+	-fx-font-size: 20px;
+	-fx-text-fill: white;
+}

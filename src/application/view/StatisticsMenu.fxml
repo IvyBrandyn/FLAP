@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.StatisticsMenuController">
+   <children>
+      <Button layoutX="133.0" layoutY="635.0" mnemonicParsing="false" onAction="#mainMenu" prefHeight="43.0" prefWidth="135.0" text="BACK" />
+      <Button layoutX="524.0" layoutY="635.0" mnemonicParsing="false" onAction="#resetButton" prefHeight="43.0" prefWidth="135.0" text="RESET" />
+      <Label fx:id="statisticsError" layoutX="599.0" layoutY="778.0" />
+      <Label layoutX="75.0" layoutY="25.0" prefHeight="45.0" prefWidth="300.0" text="Longest Run" />
+      <Label fx:id="longestRunLabel" layoutX="400.0" layoutY="25.0" />
+      <Line endX="650.0" layoutX="75.0" layoutY="70.0" />
+      <Label layoutX="75.0" layoutY="100.0" prefHeight="45.0" prefWidth="300.0" text="Average Run" />
+      <Label fx:id="averageRunLabel" layoutX="400.0" layoutY="100.0" />
+      <Line endX="650.0" layoutX="75.0" layoutY="145.0" />
+      <Label layoutX="75.0" layoutY="175.0" prefHeight="45.0" prefWidth="300.0" text="Deaths" />
+      <Label fx:id="deathsLabel" layoutX="400.0" layoutY="175.0" />
+      <Line endX="650.0" layoutX="75.0" layoutY="220.0" />
+      <Label layoutX="75.0" layoutY="250.0" prefHeight="45.0" prefWidth="300.0" text="Total Distance" />
+      <Label fx:id="totalDistanceLabel" layoutX="400.0" layoutY="250.0" />
+      <Line endX="650.0" layoutX="75.0" layoutY="295.0" />
+      <Label layoutX="75.0" layoutY="325.0" prefHeight="45.0" prefWidth="250.0" text="Pipes Cleared" />
+      <Label fx:id="obstaclesClearedLabel" layoutX="400.0" layoutY="325.0" />
+      <Line endX="650.0" layoutX="75.0" layoutY="370.0" />
+   </children>
+</AnchorPane>
